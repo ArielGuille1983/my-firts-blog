@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-# import os
+import os
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES = {}
