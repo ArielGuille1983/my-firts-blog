@@ -28,6 +28,6 @@ PostFactory.create()
 PostFactory.create_batch(10) 
 
 ```
-** probando algunas cosas **
+**probando algunas cosas**
 
-~~ probando el tachado ~~
+~~probando el tachado~~
