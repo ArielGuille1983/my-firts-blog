@@ -1,4 +1,4 @@
-# Instalación
+## Instalación
 
 ```
 pip install -r requirements.txt
@@ -10,14 +10,14 @@ pip install -r requirements.txt
 myvenv\Scripts\activate
 
 ```
-###### Lanzar servidor
+## Lanzar servidor
 
 ```
 python manage.py runserver --settings=mysite.local_settings
 
 ```
 
-# Shell (InteractiveConsole)
+## Shell (InteractiveConsole)
 
 ```
 
