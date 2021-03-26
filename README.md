@@ -1,16 +1,16 @@
-# instalación
+# Instalación
 
 ```
 pip install -r requirements.txt
 
 ```
-# Consola virtual
+## Consola virtual
 
 ```
 myvenv\Scripts\activate
 
 ```
-# Lanzar servidor
+###### Lanzar servidor
 
 ```
 python manage.py runserver --settings=mysite.local_settings
