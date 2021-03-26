@@ -32,6 +32,4 @@ PostFactory.create_batch(10)
 
 ~~probando el tachado~~
 
-tododosososdsjdjhsdj
-fflfdkjsñsdñfsñf
-fdfdkfjsdkfjsñf
+
