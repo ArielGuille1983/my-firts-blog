@@ -1,5 +1,5 @@
 h1 a, h2 a {
-    color: #57c200;
+    color: #383d34;
     font-family: 'Lobster';
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #0fa027ee;
     font-size: 36pt;
     text-decoration: none;
 }
