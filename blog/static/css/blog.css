@@ -9,7 +9,7 @@ body {
 
 .page-header {
     background-color: #c20000;
-    margin-top: center;
+    margin-top: 1px;
     padding: 20px 20px 20px 40px;
 }
 
@@ -60,5 +60,5 @@ h1, h2, h3, h4 {
 
 img {
     width: 300px;
-    margin: auto;
+    margin: 20px auto;
 }
