@@ -15,8 +15,9 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: black;
-    font-size: center;
+    font-size: 40pt;
     text-decoration: none;
+    inline-size: 200px;
 }
 
 .content {
