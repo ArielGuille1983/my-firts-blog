@@ -6,7 +6,6 @@
     <div class="date">
         {{ post.published_date }}
     </div>
-    <img src=images/poster.jpg.webp>
     <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
         <p>{{ post.text|linebreaksbr }}</p>
     <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
