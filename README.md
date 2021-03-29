@@ -32,4 +32,11 @@ PostFactory.create_batch(10)
 
 ~~probando el tachado~~
 
+## Heroku
+
+```
+heroku run python manage.py shell -a arieleduardo83blog
+
+```
+
 
