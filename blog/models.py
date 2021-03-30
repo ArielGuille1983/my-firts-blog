@@ -7,7 +7,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200)
     text = models.TextField()
 
-    image_header = models.ImageField(upload_to='media/')
+    
 
     created_date = models.DateTimeField(
             default=timezone.now)
