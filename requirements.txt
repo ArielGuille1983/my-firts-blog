@@ -6,4 +6,3 @@ sqlparse
 whitenoise
 psycopg2
 factory_boy
-Pillow
