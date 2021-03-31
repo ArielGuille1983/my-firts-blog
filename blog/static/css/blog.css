@@ -78,3 +78,7 @@ img {
     color: white;
     text-align: center;
 }
+
+.nav-item {
+    background: content-box;
+}
