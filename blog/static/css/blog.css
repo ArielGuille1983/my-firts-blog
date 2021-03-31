@@ -69,3 +69,9 @@ img {
 .Trailer {
     color: blue;
 }
+
+.footer {
+    background: gray;
+    color: white;
+    text-align: center;
+}
