@@ -80,5 +80,9 @@ img {
 }
 
 .nav-item {
-    background: rgb(56, 55, 55)
+    background: black
+}
+
+.link {
+    color: red;
 }
