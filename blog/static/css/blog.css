@@ -8,13 +8,16 @@ body {
 }
 
 .page-header {
-    background-color: #c20000;
+    background-color:#e43434;
     margin-top: 1px;
     padding: 20px 20px 20px 40px;
+    
+    
+    
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: black;
+    color: #111111;
     font-size: 40pt;
     text-decoration: none;
     inline-size: 200px;
@@ -29,11 +32,11 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #e913b3;
+    color: #009acd;
 }
 
 .save {
-    float: right;
+    /*float: right;*/
 }
 
 .post-form textarea, .post-form input {
@@ -41,7 +44,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ddda10;
+    color: #ffbf00;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -52,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #550788;
+    color: #9a32cd;
 }
 
 .comment {
@@ -62,6 +65,7 @@ h1, h2, h3, h4 {
 img {
     
     margin-top: 10px;
+    
     
     width: 300px;
     

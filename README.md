@@ -39,4 +39,17 @@ heroku run python manage.py shell -a arieleduardo83blog
 
 ```
 
+```
+
+## Actualizar Models 
+
+python manage.py makemigrations
+
+python manage.py migrate --settings=mysite.local_settings
+
+
+```
+
+
+
 
