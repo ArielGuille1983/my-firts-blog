@@ -16,7 +16,7 @@ class Post(models.Model):
         blank=True,
         null=True
     )
-    video = models.FileField(upload_to='post/pictures',
+    video = models.URLField(max_length=500,
     blank=True,
     null=True
     )
