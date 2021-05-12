@@ -1,3 +1,4 @@
+
 h1 a, h2 a {
     color: #f10909;
     font-family: 'Lobster';
@@ -8,19 +9,24 @@ body {
 }
 
 .page-header {
-    background-color:#e43434;
+    
     margin-top: 1px;
     padding: 20px 20px 20px 40px;
+    background: url(https://zosimocoronado.com/wp-content/uploads/2018/03/Como-crear-blog-de-cine.png);
+    background-size: cover;
+    min-height: 400px;
     
     
     
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #111111;
-    font-size: 40pt;
+    color: #090D10;
+    font-size: 88;
     text-decoration: none;
-    inline-size: 200px;
+    inline-size: 250px;
+    
+    
 }
 
 .content {
@@ -32,12 +38,12 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #009acd;
+    color: #a7cd00;
 }
 
 .save {
     /*float: right;*/
-}
+} 
 
 .post-form textarea, .post-form input {
     width: 100%;
@@ -82,7 +88,7 @@ img {
     color: white;
     text-align: center;
 }
-
+/*
 .nav-item {
     background: grey
 }
@@ -90,3 +96,5 @@ img {
 .link {
     color: white;
 }
+*/
+

@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Post, Comment, Video
+from .models import Post, Comment
 
 class PostForm(forms.ModelForm):
 
@@ -15,7 +15,3 @@ class CommentForm(forms.ModelForm):
         fields = ('author', 'text',)
 
 
-class VideoForm(forms.ModelForm):
-    class Meta:
-        model= Video
-        fields= ["name", "file"]

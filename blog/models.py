@@ -60,8 +60,6 @@ class Comment(models.Model):
         return self.text
 
 
-class Video(models.Model):
-    name= models.CharField(max_length=500)
-    file= models.FileField(upload_to='post/pictures', null=True, verbose_name="Trailer")
+
     
     

@@ -49,6 +49,16 @@ python manage.py migrate --settings=mysite.local_settings
 
 
 ```
+## Logs
+
+```
+heroku logs -a arieleduardoblog
+
+heroku ps -a arieleduardoblog
+
+```
+
+
 
 
 
