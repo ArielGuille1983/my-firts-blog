@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 
 
+
 class Post(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
@@ -21,13 +22,7 @@ class Post(models.Model):
     null=True
     )
     
-    slug = models.SlugField(null=True, blank=True)
-
-    def save(self, *args, **kwargs):
-        if not self.id:
-            self.slug = slugify(self.name)
-
-        super(Post, self).save(*args, **kwargs)
+    
 
 
 
