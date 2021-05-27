@@ -48,9 +48,10 @@
 
     {% if user.is_authenticated %}
     
-    <a href="{% url 'post_new' %}" class="top-menu"><span style="color: chocolate;" class="glyphicon glyphicon-plus"></span></a>
+    <a href="{% url 'post_new' %}" class="top-menu"><span style="color: chocolate;" class="glyphicon glyphicon-plus-sign"></span></a>
     <a href="{% url 'post_draft_list' %}" class="top-menu"><span style="color: chocolate;" class="glyphicon glyphicon-edit"></span></a>
-    <p style="color: chocolate;" class="top-menu">{{ user.username }} <small style="color: chocolate;">(<a style="color: chocolate;" href="{% url 'logout' %}">Out</a>)</small></p>
+    
+    <p style="color: chocolate;" class="top-menu">{{ user.username }} <small style="color: chocolate;"><a class="glyphicon glyphicon-remove" style="color: chocolate;" href="{% url 'logout' %}"></a></small></p>
       
     {% else %}
     <a style="color: chocolate;" href="{% url 'login' %}" class="top-menu"><svg xmlns="http://www.w3.org/2000/svg" style="color: chocolate;" width="40" height="40" fill="currentColor" class="bi bi-person" viewBox="0 0 14 14">
@@ -89,9 +90,16 @@
 
 
     </div>
-    <footer  class="footer">
-      Derechos reservados 2010-2021
+    <footer style="background-color: grey; color: white;position: -ms-page;" class="footer">
+
+      Derechos Reservados 2010-2021
     </footer>
+
+
+
+
+
+    </div>
 
 
   </div>
