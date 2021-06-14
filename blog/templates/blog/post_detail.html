@@ -39,7 +39,11 @@
 
         {% if post.video %}
         <video src="post.video.url" >
-        {% endif %}                
+        {% endif %} 
+        
+        {% if post.imagen %}
+        <img src="{{ post.imagen.url }}" >
+        {% endif %}
         
             
         

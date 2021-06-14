@@ -22,7 +22,12 @@ class Post(models.Model):
     null=True
     )
     
-    
+    imagen = models.ImageField(
+        upload_to='post/pictures',
+        blank=True,
+        null=True
+
+    )
 
 
 
