@@ -29,6 +29,12 @@ class Post(models.Model):
 
     )
 
+    imagen2 = models.ImageField(
+        upload_to='post/pictures',
+        blank=True,
+        null=True
+
+    )
 
 
     def publish(self):

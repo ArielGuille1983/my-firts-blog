@@ -30,8 +30,8 @@
         <h2 style="color: #9a32cd;" >{{ post.title }}</h2>
         <p><strong>{{ post.subtitle }}</strong></p>
 
-        {% if post.photo %}
-        <img src="{{ post.photo.url }}" >
+        {% if post.imagen %}
+        <img src="{{ post.imagen.url }}">
         {% endif %}
         
         <p>{{ post.text|linebreaksbr }}</p>
@@ -40,10 +40,12 @@
         {% if post.video %}
         <video src="post.video.url" >
         {% endif %} 
-        
-        {% if post.imagen %}
-        <img src="{{ post.imagen.url }}" >
+
+        {% if post.imagen2 %}
+        <img src="{{ post.imagen2.url }}">
         {% endif %}
+        
+        
         
             
         
