@@ -23,9 +23,9 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     
-    font-size: 88;
+    font-size: 100;
     text-decoration: none;
-    inline-size: 250px;
+    inline-size: 300px;
     
     
 }
@@ -76,7 +76,6 @@ img {
     
     
     width: 300px;
-    
     
     
 }

@@ -39,9 +39,11 @@ heroku run python manage.py shell -a arieleduardo83blog
 
 ```
 
-```
+
 
 ## Actualizar Models 
+
+```
 
 python manage.py makemigrations
 
