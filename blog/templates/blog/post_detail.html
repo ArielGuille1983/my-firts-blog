@@ -21,11 +21,7 @@
         
 
         {% endif %} 
-        <!--
-        <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-4"></div>
-        -->    
+            
         
         <h2 style="color: #9a32cd;" >{{ post.title }}</h2>
         <p><strong>{{ post.subtitle }}</strong></p>
@@ -38,7 +34,7 @@
         
 
         {% if post.video %}
-        <video src="post.video.url" >
+        <video src="{{ post.video.url }}" >
         {% endif %} 
 
         {% if post.imagen2 %}

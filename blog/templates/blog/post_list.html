@@ -1,7 +1,31 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+<!--card-->
+<!--
+<section class="team text-center"> 
+  <div class="container p-5"> -->
+  <!--  <h1 class="text-white">Team</h1>
+    <p class="text-white"> texto de desarrollo</p> -->
+  <!--  <div class="row"> 
+      <div class="col-lg-3"></div>
+        <div class="card">
+          <div class="card-body"> -->
+      <!--      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Quentin_Tarantino_by_Gage_Skidmore.jpg/220px-Quentin_Tarantino_by_Gage_Skidmore.jpg" class="img-fluid" alt="">
+          -->
+    <!--      </div>
+        </div>
+    </div>
+  </div>
+
+<section> -->
+
+  <!--card-->
+
 {% for post in posts %}
+
+
+
 <div class="post">
     <div style="color: #a7cd00;" class="date">
         {{ post.published_date }}
@@ -15,7 +39,7 @@
     <img  src="{{ post.photo.url }}" >
     {% endif %}
     
-    
+   
 
     <!--    <p>{{ post.text|linebreaksbr }}</p>
     <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
@@ -27,3 +51,4 @@
 </div>
 {% endfor %}
 {% endblock %}
+

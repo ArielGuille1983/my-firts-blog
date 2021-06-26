@@ -76,9 +76,10 @@ img {
     
     
     width: 300px;
-    
-    
+        
 }
+
+
 /*
 .Trailer {
     color: blue;
@@ -101,3 +102,16 @@ img {
 }
 */
 
+.team {
+    background:#30336b;
+
+}
+
+.content {
+    background: #30336b;
+    text-align: center;
+}
+
+.col-lg-4 {
+    background: red;
+}
