@@ -10,12 +10,13 @@ body {
 
 .page-header {
     
-    margin-top: 1px;
+    margin-top: 1px; 
     padding: 20px 20px 20px 40px;
    /* background: url(https://zosimocoronado.com/wp-content/uploads/2018/03/Como-crear-blog-de-cine.png); */
-    background: url(https://nolich.com/wp-content/uploads/2018/05/cine-rojo.jpg);
-    background-size: cover;
-    min-height: 480px;
+    background: url(https://nolich.com/wp-content/uploads/2018/05/cine-rojo.jpg); 
+    
+    background-size: cover; 
+    min-height: 480px; 
     
     
     
@@ -32,6 +33,8 @@ body {
 
 .content {
     margin-left: 40px;
+    background: #0c0c0c;
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -60,6 +63,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    
 }
 /*
 .post h2 a, .post h2 a:visited {
@@ -102,16 +106,16 @@ img {
 }
 */
 
-.team {
-    background:#30336b;
 
-}
 
-.content {
-    background: #30336b;
-    text-align: center;
-}
 
+/*
 .col-lg-4 {
     background: red;
 }
+
+*/
+
+
+
+
