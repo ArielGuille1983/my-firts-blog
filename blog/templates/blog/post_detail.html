@@ -11,6 +11,7 @@
         {% else %}
             <a class="btn btn-default" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
         {% endif %}
+        
         {% if user.is_authenticated %}
         
         <a style="color: red;" class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Comment <svg xmlns="http://www.w3.org/2000/svg"width="16" height="16" fill="currentColor" class="bi bi-chat-text" viewBox="0 0 16 16">
@@ -21,8 +22,7 @@
         <a style="color:red;" class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}"><span class="glyphicon glyphicon-remove"></span></a>
         
 
-        {% endif %} 
-            
+        {% endif %}    
         
         <h2 style="color: #9a32cd;" >{{ post.title }}</h2>
         <p><strong>{{ post.subtitle }}</strong></p>
@@ -43,7 +43,7 @@
         {% endif %}
         
         
-        
+         
             
         
         <!---- <iframe src="https://www.youtube.com/embed/wuko2euXYxw?controls=0&showinfo=0&disablekb=1"></iframe>       
