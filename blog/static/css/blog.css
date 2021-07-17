@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 }
 */
 .save {
-    float: right;
+    float: right; 
 } 
 
 .post-form textarea, .post-form input {
@@ -55,6 +55,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
+
     
     float: right; 
     font-size: 26pt;
@@ -117,5 +118,8 @@ img {
 */
 
 
-
+.container-fluid-1{
+    display: flex;
+    justify-content: center;
+}
 

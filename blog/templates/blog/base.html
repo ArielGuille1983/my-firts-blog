@@ -169,10 +169,9 @@
     
     
     <div class="row">
-      <div class="col-lg-8"></div>
+      <div class="col-lg-8">
       
-      <div class="row">
-        <div style="background: red;" class="col-lg-4"><p>hola</p></div>
+      
         
        </div> 
       
@@ -211,8 +210,8 @@
           <div class="col-lg-3">
             <div class="card">
               <div class="card-body">
-                <img src="media/tarantino.jpg" class="img-fluid rounded-circle w-50">
-                <h3>John Carter</h3>
+                <img src="{% static 'img/tarantino.jpg' %}" class="img-fluid rounded-circle w-50">
+                <h3>tarantino</h3>
                 <p>
                   Dolor modi repudiandae quia beatae consectetur? Nam ullafugit ullam, accusamus! Totam mollitia eveniet!
                 </p>
@@ -314,36 +313,289 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-2">
-          <img class="img-circle"  src="media/tarantino.jpg" alt="Generic placeholder image" width="10" height="220">
-          <a class="link" href="http://imdb.com" target="_blank">tarantino</a>
-          
-          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-2">
-          <img class="img-circle" src="media/cine.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Cine</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-2">
-          <img class="img-circle" src="media/leodicaprio.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Leo</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-2">
-          <img class="img-circle" src="media/tarantino.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Tarantino</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
 
+        <div class="col-lg-4">
+          <img class="img-circle"  src="media/avatar.jpg" alt="Generic placeholder image" width="140" height="140">
+          <a class="link" href="http://imdb.com" target="_blank">tarantino</a>
+        </div> 
+          
+        
+        <div class="col-lg-4">
+          <img class="img-circle" src="media/cine.png" alt="Generic placeholder image" width="140" height="140">
+          <a class="link" href="http://imdb.com" target="_blank">cine</a>
+        </div>
+          
+        
+        <div class="col-lg-4">
+          <img class="img-circle" src="media/spiral.jpg" alt="Generic placeholder image" width="140" height="140">
+          <a class="link" href="http://imdb.com" target="_blank">leo</a>
+        </div>
+
+        <div class="col-md-2">
+          <img class="img-circle" src="media/tarantino.jpg" alt="Generic placeholder image" width="140" height="100">
+          <a class="link" href="http://imdb.com" target="_blank">taranta</a>
+        </div>
+
+        <div class="col-md-2">
+          <img class="img-circle" src="media/tarantino.jpg" alt="Generic placeholder image" width="140" height="100">
+          <a class="link" href="http://imdb.com" target="_blank">taranta</a>
+        </div>
+          
+        <div class="col-md-2">
+          <img class="img-circle" src="media/tarantino.jpg" alt="Generic placeholder image" width="800" height="100">
+          <a class="link" href="http://imdb.com" target="_blank">taranta</a>
+        </div> 
+
+      </div>
+    </div>
+  
 
 
 
 <!--fin prueba list-->
 
+<!--prueba tabla-->
 
+<section class="destacados spad">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h4>TOP ANIMES <b class="red"><i class="fas fa-clock-o"></i> actualiza en <span class="time" datetime="2021-07-13 22:33:56 UTC"></span></b></h4>
+        </div>
+      </div>
+    
+              <script>
+          function pad(d) {
+          return (d < 10) ? '0' + d.toString() : d.toString();
+          }
+          function contador() {
+          var startTime = new Date(); 
+          var endTime = new Date($(".time").attr("datetime").replace(/-/g,'/'));
+          var difference = endTime.getTime() - startTime.getTime();
+          var minutos_restantes = parseInt(Math.abs(endTime.getTime() - startTime.getTime()) / (1000 * 60) % 60);
+          var segundos_restantes = parseInt(Math.abs(endTime.getTime() - startTime.getTime()) / (1000) % 60);
+          $(".time").html(pad(minutos_restantes) + ":" + pad(segundos_restantes));
+          }
+          contador();
+          setInterval(contador,1000);
+          </script>
+        
+          
+                                                      <div class="col-lg-4">
+        <a href="https://jkanime.net/shingeki-no-kyojin-the-final-season/" style="display: block;">
+          <div class="anime__item__pic set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/shingeki-no-kyojin-the-final-season.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/shingeki-no-kyojin-the-final-season.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 26870</span>
+            <div class="ep">1</div>
+            <div class="comment">
+            <h5 class="tituloblanco">Shingeki no Kyojin: The Final Season</h5>
+            </div>
+          </div>
+        </a>
+         </div>
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                             
+                                                                                    <div class="col-lg-8"><div class="row">
+              
+                      
+                  
+                       
+           <div class="col-lg-4">					<a href="https://jkanime.net/one-piece/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/one-piece.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/one-piece.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 22415</span>
+            <div class="top3"> 2</div>
+            <div class="comment">
+            <h5 class="tituloblanco ">One Piece</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+           <div class="col-lg-4">					<a href="https://jkanime.net/naruto-shippuden/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/naruto-shippuden.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/naruto-shippuden.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 21633</span>
+            <div class="top3"> 3</div>
+            <div class="comment">
+            <h5 class="tituloblanco ">Naruto Shippuden</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+           <div class="col-lg-4">					<a href="https://jkanime.net/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/maou-gakuin-no-futekigousha-shijou-saikyou-no-maou-no-shiso-tensei-shite-shison-tachi-no-gakkou-e.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 17884</span>
+            <div class="top3"> 4</div>
+            <div class="comment">
+            <h5 class="tituloblanco ">Maou Gakuin no Futekigousha</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/black-clover-tv/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/black-clover-tv.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/black-clover-tv.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 16964</span>
+            <div class="top6"> 5</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Black Clover (TV)</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/jujutsu-kaisen-tv/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/jujutsu-kaisen-tv.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/jujutsu-kaisen-tv.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 14455</span>
+            <div class="top6"> 6</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Jujutsu Kaisen (TV)</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/kanojo-okarishimasu/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/kanojo-okarishimasu.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/kanojo-okarishimasu.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 13481</span>
+            <div class="top6"> 7</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Kanojo, Okarishimasu</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/kimetsu-no-yaiba/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/kimetsu-no-yaiba.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/kimetsu-no-yaiba.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 12676</span>
+            <div class="top6"> 8</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Kimetsu no Yaiba</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/tonikaku-kawaii/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/tonikaku-kawaii.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/tonikaku-kawaii.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 11325</span>
+            <div class="top6"> 9</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Tonikaku Kawaii</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+                  
+                       
+          <div class="col-lg-2 col-6">					<a href="https://jkanime.net/sword-art-online-alicization-war-of-underworld-2nd-season/" style="display: block;">
+          <div class="anime__item__pic__fila4 set-bg" data-setbg="https://cdn.jkanime.net/assets/images/animes/image/sword-art-online-alicization-war-of-underworld-2nd-season.jpg" style="background-image: url(&quot;https://cdn.jkanime.net/assets/images/animes/image/sword-art-online-alicization-war-of-underworld-2nd-season.jpg&quot;);"><span class="vc"><i class="fa fa-thumbs-up" aria-hidden="true"></i> 9622</span>
+            <div class="top6"> 10</div>
+            <div class="comment">
+            <h5 class="tituloblanco columnas6">Sword Art Online: Alicization - War&amp;#8230;</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    
+          
+          
+                  
+          
+        </div>	</div>	
+        
+    
+      
+      
+      <div class="col-lg-12 text-center pt-3">
+          <h4><a href="/top">↓ Ver Lista Completa ↓</a></h4>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
+<div  class="container-fluid-1">
+  <div class="row">
+    <ul class="search-categories">
+      <li>
+        <h3><a href="/popular-movies" title="Movies"><span class="icon"><i class="flaticon-movies"></i></span>Movies </a></h3>
+        
+      </li>
+      <li>
+        <h3><a href="/popular-tv" title="Television"><span class="icon"><i class="flaticon-tv"></i></span>Television </a></h3>
+        
+      </li>
+      <li>
+        <h3><a href="/popular-games" title="Games"><span class="icon"><i class="flaticon-games"></i></span>Games </a></h3>
+      </li>
+      <li>
+        <h3><a href="/popular-music" title="Musics"><span class="icon"><i class="flaticon-music"></i></span>Music </a></h3>
+      </li>
+      <li>
+        <h3><a href="/popular-apps" title="Applications"><span class="icon"><i class="flaticon-apps"></i></span>Applications </a></h3>
+      </li>
+      <li>
+        <h3><a href="/popular-anime" title="Other"><span class="icon"><i class="flaticon-ninja-portrait"></i></span>Anime </a></h3>
+      </li>
+      <li>
+        <h3><a href="/popular-documentaries" title="Documentries"><span class="icon"><i class="flaticon-documentary"></i></span>Documentaries </a></h3>
+      </li>
+      <li>
+        <h3><a href="/popular-other" title="Other"><span class="icon"><i class="flaticon-other"></i></span>Other </a></h3>
+      </li>
+  
+    </ul>
+  </div>
+</div>
+<!--fin tabla-->
 
             <!--   FOOTER    -->
 
@@ -360,6 +612,15 @@
 
 
   </div>
+        <!-- jQuery, Popper and Bootstrap JS -->
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+
+
+
 </body>
 
 </html>
