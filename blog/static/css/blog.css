@@ -1,27 +1,31 @@
+/*fuente*/
 
 h1 a, h2 a {
     
     font-family: 'Lobster';
 }
 
+/*margen a la izquierda*/
+/*
 body {
     padding-left: 15px;
 }
+*/
 
+/*imagen de cabezera y tamaño de la imagen*/
 .page-header {
     
     margin-top: 1px; 
-    padding: 20px 20px 20px 40px;
-   /* background: url(https://zosimocoronado.com/wp-content/uploads/2018/03/Como-crear-blog-de-cine.png); */
-    background: url(https://nolich.com/wp-content/uploads/2018/05/cine-rojo.jpg); 
+    padding: 20px 20px 20px 40px; 
+    background: url(../img/cine.png);
+  /*  background: url(https://nolich.com/wp-content/uploads/2018/05/cine-rojo.jpg);*/
     
-    background-size: cover; 
-    min-height: 480px; 
-    
-    
-    
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 480px; 
 }
 
+/* Fuente del title y decorado del title */
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     
     font-size: 100;
@@ -31,28 +35,31 @@ body {
     
 }
 
-.content {
-    margin-left: 40px;
-    background: #0c0c0c;
+/*primer container*/
+.container-fluid{
     text-align: center;
+    background: #0c0c0c;
+    margin: center;
 }
 
+
+/*fuentes de h */
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
     
 }
-/*
-.date {
-    
-}
-*/
+
+
+
 .save {
     float: right; 
 } 
 
+
 .post-form textarea, .post-form input {
     width: 100%;
 }
+
 
 .top-menu, .top-menu:hover, .top-menu:visited {
 
@@ -62,18 +69,22 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
+
 .post {
     margin-bottom: 70px;
     
 }
-/*
+
+
 .post h2 a, .post h2 a:visited {
     color: #9a32cd;
 }
-*/
+
+
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
 
 img {
     
@@ -85,41 +96,24 @@ img {
 }
 
 
-/*
-.Trailer {
-    color: blue;
-}
-*/
 
-.footer {
-    
-    
-    text-align: center;
-} 
-
-/*
 .nav-item {
     background: grey
 }
 
+
 .link {
     color: white;
 }
-*/
 
 
 
 
-/*
-.col-lg-4 {
-    background: red;
-}
-
-*/
 
 
-.container-fluid-1{
-    display: flex;
-    justify-content: center;
-}
+
+
+
+
+
 
